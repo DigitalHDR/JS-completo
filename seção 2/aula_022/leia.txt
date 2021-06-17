@@ -1,0 +1,2 @@
+22. alert, confirm e prompt
+(Navegador)
