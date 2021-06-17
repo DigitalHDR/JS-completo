@@ -6,17 +6,24 @@
 // console.log(umaString[-1])
 //undefined
 //=================================================
+//                          RETORNA A LETRA DA STRING
+
 // let umaString = `um texto`
 // console.log(umaString.charAt(6))
 // t
 //=================================================
+//                          RETORNA A LETRA DA STRING
+
 // let umaString = `um texto`
 // console.log(umaString.charAt(8))
 // retorna vazio pois não existe
 //=================================================
 // let umaString = `um texto`
 // console.log(`${umaString} em um lindo dia`)
-//================================================
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//                          O método indexOf() retorna o primeiro índice em 
+//                          que o elemento pode ser encontrado no array, retorna -1
+//                          caso o mesmo não esteja presente.
 // let umaString = "um texto"
 // console.log(umaString.indexOf('Texto'))
 // 3
@@ -37,7 +44,8 @@
 // 7
 // aqui já tem após o indice 3 a palavra o
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-// lastIndexOf esse metodo retorna da última palavra para a primeira
+//                              O método lastIndexOf() retorna o índice da
+//                              última ocorrência do valor especificado encontrado
 // let umaString = "um texto"
 // console.log(umaString.lastIndexOf('o', 3))
 // -1
@@ -85,7 +93,8 @@
 // console.log(umaString.length)
 // 34
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-// slice(method) Retorna uma seção(como se pegasse somente aquele treco) de uma string.
+//                              metodo slice Retorna uma seção(como se pegasse somente aquele trexo)
+//                              de uma string.
 // let umaString = "O rato roeu a roupa do rei de roma"
 // console.log(umaString.slice(2, 5))
 // rat
@@ -122,9 +131,8 @@
 // roma
 // roma
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-// split
-// Divida uma string em substrings usando o separador
-// especificado e retorne-as como uma array.
+//                                  split Divida uma string em substrings usando o separador
+//                                  especificado e retorne-as como uma array.
 // let umaString = "O rato roeu a roupa do rei de roma."
 // console.log(umaString.split(' '))
 // string vazia
@@ -140,7 +148,7 @@
 // toLocaleUpperCase
 // faz toda String ficar em maisculo
 // let umaString = "O rato roeu a roupa do rei de roma."
-// console.log(umaString.toLocaleUpperCase())
+// console.log(umaString.toUpperCase())
 // O RATO ROEU A ROUPA DO REI DE ROMA.
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // toLowerCase

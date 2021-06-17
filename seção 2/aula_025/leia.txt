@@ -1,1 +1,2 @@
 25. Mais sobre strings
+26. Exercícios com strings
