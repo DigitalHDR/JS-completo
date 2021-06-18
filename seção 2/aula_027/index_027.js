@@ -73,3 +73,7 @@
 // console.log(num1)
 // console.log(Number.isInteger(num1))
 // 0.8
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+// calculo para Raiz quadrada
+// exemplo
+// ${numero ** 0.5}
