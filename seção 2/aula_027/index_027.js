@@ -3,7 +3,7 @@
 // console.log(num1 + num2)
 // 3.5
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-//                     toString() (method)
+                    // toString() (method)
 // Retorna uma representação de string de um objeto.
 // let num1 = 1
 // let num2 = 2.5
@@ -23,7 +23,7 @@
 //                  toFixed() (method)
 // O número de dígitos que aparecem depois do ponto decimal
 // let num1 = 10.570394678
-// console.log(num1.toFixed(2))
+// console.log(num.toFixed(2))
 // 10.57
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //                  isInteger() (method)
