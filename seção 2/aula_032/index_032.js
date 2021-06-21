@@ -51,7 +51,10 @@
 // Bom dia! lucas
 
 // aqui nesse caso a função não exibi nada (NÃO RETORNA NADA)
-// mais a variavel recebeu o valor da função
+//*****     *****       *****       *****       *****       */
+// mais o parametro recebeu o argumento
+// FALAMOS ARGUMENTO QUANDO PASSAMOS ALGO PRA OS PARAMETROS
+//*****     *****       *****       *****       *****       */
 // que a função retornou
 // Bom dia! lucas, é o que está dentro da variavel, vejá + abaixo
 // =======================================================
