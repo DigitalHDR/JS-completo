@@ -1,7 +1,7 @@
 /**
  Operadores lógicos
 
- && = e     (todos expressões tevem ser true para retornar true)
+ && = e     (todos tevem ser true para retornar true)
  || = ou    (basta um ser true para retornar true)
  !  = não
 
@@ -29,7 +29,7 @@
 //                  basta um ser true para retornar true
 // const expressaoOr = true || false
 // console.log(expressaoOr)
-// true
+//                  true
 // =============================================
 // const expressaoOr = true || true
 // console.log(expressaoOr)
