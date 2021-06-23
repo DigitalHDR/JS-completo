@@ -32,9 +32,9 @@
 // console.log(typeof primeiroNumero)
 // primeiroNumero é number
 // =============================================================
-const primeiroNumero = 5
-const segundoNumero = 10
-console.log(typeof(primeiroNumero + segundoNumero))
+// const primeiroNumero = 5
+// const segundoNumero = 10
+// console.log(typeof(primeiroNumero + segundoNumero))
 // será uma string pois basta ter uma string para o resto ser string também
 // para ser numero que que ser tudo numero
 // perceba que tem () dentro de () isso faz com que o javascript pegue

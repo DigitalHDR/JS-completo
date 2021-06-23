@@ -3,7 +3,7 @@
 
  && = e     (todos tevem ser true para retornar true)
  || = ou    (basta um ser true para retornar true)
- !  = não
+ !  = não   (nega alguma coisa)
 
  */
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
