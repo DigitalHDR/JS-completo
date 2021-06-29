@@ -1,5 +1,5 @@
-//string = texto
-//number = número
+//?         string = texto
+//?          number = número
 
 console.log("lucas 'fernando'")
 console.log('lucas "fernando"')

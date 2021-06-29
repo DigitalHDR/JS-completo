@@ -1,0 +1,1 @@
+51. Atribuição via desestruturação (Objetos)
