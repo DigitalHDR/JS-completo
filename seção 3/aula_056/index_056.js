@@ -1,3 +1,7 @@
+//?         For clássico - Geralmente com iteráveis (arrays ou strings)
+//?         For in - Retorna o indice ou chave (string, array, ou objetos)
+//?         For of -Retorna o valor em si (iteráveis, arrays ou strings)
+//todo =====================================================
 // const nome = 'Lucas'
 
 // for (let i of nome) {
