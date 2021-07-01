@@ -32,8 +32,8 @@
 // console.log(numeroMaior(100,200))
 //?         200
 //todo =====================================================
-const numeroMaior = (x, y) => x > y ? x : y  
+// const numeroMaior = (x, y) => x > y ? x : y  
 
-console.log(numeroMaior(100,200))
+// console.log(numeroMaior(100,200))
 //?         200
 //todo =====================================================
