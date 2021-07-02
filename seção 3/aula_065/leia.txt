@@ -1,0 +1,1 @@
+65. setInterval e setTimeout
