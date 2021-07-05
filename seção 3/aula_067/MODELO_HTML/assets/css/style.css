@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+:root {
+    --primary-color: #151a1d;
+    --font-size: 14px;
+    --font-weight: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+section {
+    color: #000000;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #0099ff;
+    transition: ease-in 0.5s;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+section p {
+    text-align: center;
+    font-size: var(--font-size);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+form label {
+    font-size: var(--font-size);
+    margin-top: 5px;
+    font-weight: var(--font-weight);
+}
+
+form input {
+    height: 35px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input:focus {
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+
+.container_p {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.btn_tarefa {
+    font-size: var(--font-size);
+    padding:  1px 5px;
+    display: flex;
+    justify-content: center;
+    margin:  5px 10px;
+    border: none;
+    font-weight: var(--font-weight);
+    border-radius: 5px;
+}
+
+.apagar {
+    font-size: 12px;
+    padding:  1px 5px;
+    display: flex;
+    justify-content: center;
+    margin:  5px 10px;
+    border: none;
+    font-weight: var(--font-weight);
+    border-radius: 5px;
+}
+
+.apagar:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+.tarefas li {
+    display: flex;
+}
