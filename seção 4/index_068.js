@@ -1,3 +1,6 @@
+//?         For clássico - Geralmente com iteráveis (arrays ou strings)
+//?         For in - Retorna o indice ou chave (string, array, ou objetos)
+//?         For of -Retorna o valor em si (iteráveis, arrays ou strings)
 //* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //*      | Declaração de funçao (function hoisting) | 
 //* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -195,3 +198,84 @@ NaN
 //?           6, 7, 8, 9
 //?         ]
 //todo =====================================================
+// function conta(operador, acumulador, ...numeros) {
+//     for (let numero of numeros) {
+//         acumulador += numero
+//     }
+//     console.log(acumulador)
+// }
+// conta('+', 0, 20, 30, 40, 50)
+//?         140
+//todo =====================================================
+// function conta(operador, acumulador, ...numeros) {
+//     for (let numero of numeros) {
+//         if (operador === '+') acumulador += numero
+//         if (operador === '-') acumulador -= numero
+//         if (operador === '/') acumulador /= numero
+//         if (operador === '*') acumulador *= numero
+//     }
+//     console.log(acumulador)
+// }
+// conta('-', 0, 20, 30, 40, 50)
+//?         -140
+//todo =====================================================
+// function conta(operador, acumulador, ...numeros) {
+//     for (let numero of numeros) {
+//         if (operador === '+') acumulador += numero
+//         if (operador === '-') acumulador -= numero
+//         if (operador === '/') acumulador /= numero
+//         if (operador === '*') acumulador *= numero
+//     }
+//     console.log(acumulador)
+// }
+// conta('-', 200, 20, 30, 40, 50) //? mudou aqui no acumulador
+//?         60
+//todo =====================================================
+// function conta(operador, acumulador, ...numeros) {
+//     for (let numero of numeros) {
+//         if (operador === '+') acumulador += numero
+//         if (operador === '-') acumulador -= numero
+//         if (operador === '/') acumulador /= numero
+//         if (operador === '*') acumulador *= numero
+//     }
+//     console.log(acumulador)
+// }
+// conta('*', 0, 20, 30, 40, 50)
+//?         0
+//todo =====================================================
+// function conta(operador, acumulador, ...numeros) {
+//     for (let numero of numeros) {
+//         if (operador === '+') acumulador += numero
+//         if (operador === '-') acumulador -= numero
+//         if (operador === '/') acumulador /= numero
+//         if (operador === '*') acumulador *= numero
+//     }
+//     console.log(acumulador)
+// }
+// conta('*', 1, 20, 30, 40, 50)
+//?         1200000
+//todo =====================================================
+// function conta(operador, acumulador, ...numeros, algumacoisa) { //? mudou aqui
+//     for (let numero of numeros) {
+//         if (operador === '+') acumulador += numero
+//         if (operador === '-') acumulador -= numero
+//         if (operador === '/') acumulador /= numero
+//         if (operador === '*') acumulador *= numero
+//     }
+//     console.log(acumulador)
+// }
+// conta('/', 1, 20, 30, 40, 50)
+//?         erro
+//?         SyntaxError: Rest parameter must be last formal parameter
+//?         operador spreed deve ser o ultimo, se não dará erro
+//todo =====================================================
+// const conta = function(operador, acumulador, ...numeros) {
+//     console.log(arguments)
+// }
+// conta('+', 1, 20, 30, 40, 50)
+//?         [Arguments] { '0': '+', '1': 1, '2': 20, '3': 30, '4': 40, '5': 50 }
+//todo =====================================================
+const conta = (operador, acumulador, ...numeros) => {
+    console.log(operador, acumulador, numeros)
+}
+conta('+', 1, 20, 30, 40, 50)
