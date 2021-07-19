@@ -1,0 +1,3 @@
+89. Revisando Objetos
+Object.freeze(this)
+Object.keys()
