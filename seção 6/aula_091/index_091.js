@@ -85,23 +85,6 @@
 //?         O valor que eu quero
 //?         3
 //todo =====================================================
-// function Produto(nome, preco, estoque) {
-//     this.nome = nome
-//     this.preco = preco
-//     this.estoque = estoque
-
-//     Object.defineProperty(this, 'estoque', {
-//         enumerable: true, //? mostra a chave
-//         configurable: true, //? configurável
-//         get: function () {
-//             return estoque
-//         },
-//         set: function (valor) {
-//             console.log(valor)
-//         }
-//     })
-// }
-
 // function criaProduto(nome) {
 //     return {
 //         get nome() {
@@ -118,23 +101,6 @@
 // console.log(p2.nome)
 //?         Qualquer coisa
 //todo =====================================================
-// function Produto(nome, preco, estoque) {
-//     this.nome = nome
-//     this.preco = preco
-//     this.estoque = estoque
-
-//     Object.defineProperty(this, 'estoque', {
-//         enumerable: true, //? mostra a chave
-//         configurable: true, //? configurável
-//         get: function () {
-//             return estoque
-//         },
-//         set: function (valor) {
-//             console.log(valor)
-//         }
-//     })
-// }
-
 // function criaProduto(nome) {
 //     return {
 //         get nome() {
