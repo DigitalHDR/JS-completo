@@ -1,0 +1,5 @@
+99. Polimorfismo
+é um metodo que se comporta de forma diferente, em
+classes filho de um mesmo pai
+
+é um mesmo metodo
