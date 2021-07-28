@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <section>
+            <h1>Formulário de cadastro</h1>
+
+            <ul class="lista">
+                <li>Nemhum campo pode estar vazio</li>
+                <li>Usuário só poderá conter letras e/ou números</li>
+                <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+                <li>Senha precisa ter entre 6 e 12 caracteres</li>
+            </ul>
+
+            <form class="form" method="POST">
+                <ul>
+                    <li>
+                        <p>Nome:</p>
+                        <input class="nome validar" type="text" name="" id="">
+                    </li>
+                    <li>
+                        <p>Sobrenome:</p>
+                        <input class="sobrenome validar" type="text" name="" id="">
+                    </li>
+                    <li>
+                        <p>CPF:</p>
+                        <input class="cpf validar" type="text" name="" id="">
+                    </li>
+                    <li>
+                        <p>Usuário:</p>
+                        <input class="usuario validar" type="text" name="" id="">
+                    </li>
+                    <li>
+                        <p>Senha:</p>
+                        <input class="senha validar" type="text" name="" id="">
+                    </li>
+                    <li>
+                        <p>Repetir Senha:</p>
+                        <input class="repetirSenha validar" type="text" name="" id="">
+                    </li>
+
+                    <button class="btn">Enviar</button>
+                </ul>
+            </form>
+
+        </section>
+    </main>
+
+    <script src="./assets/js/validaCpf.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
