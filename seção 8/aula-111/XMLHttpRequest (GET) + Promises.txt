@@ -1,0 +1,4 @@
+111. XMLHttpRequest (GET) + Promises
+
+Essa aula é apenas educasional pois com axios faz tudo bem
+mais simples e rapido
