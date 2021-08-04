@@ -1,0 +1,19 @@
+115. Babel e "can i use..."
+
+ATENÇÃO
+BABEL DESSA MANEIRA NÃO É MUITO ULTILIZADO
+NOS DIAS DE HOJE USA-SE WEBPACK
+=============================
+no package.json, mostra quais arquivos node estão 
+que a agente precisa pra trabalhar no projeto
+=============================
+npm install --save-dev @babel/cli @babel/preset-env @babel/core
+=============================
+converte javascript moderno nas verções antigas,cria um novo arquivo
+npx babel main.js -o bundle.js --presets=@babel/env
+=============================
+babel ./main.js -o ./bundle.js --presets=@babel/env -w
+no final a flague -w faz com que fique assistindo e todo vez que 
+haver atualização vai atualizar o outro
+
+ctrol+c faz parar toda a ação
