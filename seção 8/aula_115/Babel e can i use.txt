@@ -2,7 +2,7 @@
 
 ATENÇÃO
 BABEL DESSA MANEIRA NÃO É MUITO ULTILIZADO
-NOS DIAS DE HOJE USA-SE WEBPACK
+NOS DIAS DE HOJE USA-SE WEBPACK QUE É MUITAS VEZES MELHOR
 =============================
 no package.json, mostra quais arquivos node estão 
 que a agente precisa pra trabalhar no projeto
