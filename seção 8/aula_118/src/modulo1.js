@@ -1,3 +1,14 @@
+//!         ATENÇÃO 
+//!         NÃO PODE EXPORT ALGO DUAS VEZES TOME CUIDADDO
+//!         EXEMPLO
+//! export const nome = 'ana'
+//! export { nome }
+//?         MANEIRA CORRETA
+//? const nome = 'ana'
+//? export { nome }
+//?         OU
+//? export const nome = 'ana'
+//! ########################################################
 //?         1°
 // const nome = 'Lucas'
 // const sobrenome = 'Fernando'
@@ -116,15 +127,23 @@
 
 // export { nome, sobrenome, idade, soma }
 //todo =====================================================
-//?         11
-const nome = 'Lucas'
-const sobrenome = 'Fernando'
-const idade = 30
+// //?         11
+// const nome = 'Lucas'
+// const sobrenome = 'Fernando'
+// const idade = 30
 
-function soma(x, y) {
-    return x + y
-}
+// function soma(x, y) {
+//     return x + y
+// }
 
-export default (x, y) => x * y
+// export default (x, y) => x * y
 
-export { nome, sobrenome, idade, soma }
+// export { nome, sobrenome, idade, soma }
+//todo =====================================================
+// //?         12
+// const nome = 'ana'
+// const sobrenome = 'beatriz'
+// const idade = 25
+
+// export { nome, sobrenome, idade }
+

@@ -85,7 +85,15 @@
 //?         4
 //?         sempre que estiver importando sem chave vai ser o default
 //todo =====================================================
-//?         11
-import multiplica, { nome, sobrenome, idade, soma } from './modulo1';
-console.log(multiplica(5, 40))
-console.log(nome, sobrenome, idade, soma)
+// //?         11
+// import multiplica, { nome, sobrenome, idade, soma } from './modulo1';
+// console.log(multiplica(5, 40))
+// console.log(nome, sobrenome, idade, soma(4, 4))
+//?         200
+//?         Lucas Fernando 30 8
+//todo =====================================================
+//?         12
+// import { nome, sobrenome, idade } from './modulo1';
+
+// console.log(nome, sobrenome, idade )
+//?         ana beatriz 25
