@@ -1,0 +1,3 @@
+122. Core-js e regenerator-runtime
+quase completo, ver os do webpack easy no github
+para completar tudo
