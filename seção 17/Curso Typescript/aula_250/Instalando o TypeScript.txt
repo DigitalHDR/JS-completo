@@ -1,0 +1,6 @@
+250. Instalando o TypeScript
+1° npm init -y
+2° npm i typescript -D
+
+3° npx tsc index.ts
+isso faz a compilação do arquivo index.ts para index.js
