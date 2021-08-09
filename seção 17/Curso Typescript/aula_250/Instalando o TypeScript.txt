@@ -1,4 +1,5 @@
-250. Instalando o TypeScript
+251. Instalando o ts-node e Code Runner
+
 1° npm init -y
 2° npm i typescript -D
 

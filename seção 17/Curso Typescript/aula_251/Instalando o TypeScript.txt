@@ -1,0 +1,14 @@
+251. Instalando o ts-node e Code Runner
+
+1° npm init -y
+2° npm i typescript -D
+
+3° npx tsc index.ts
+isso faz a compilação do arquivo index.ts para index.js
+
+4° npm i ts-node -D
+dependencia de deselvolvimento node
+
+5° npm install --save @types/node
+para poder rodar o code run
+
