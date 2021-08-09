@@ -1,4 +1,5 @@
-251. Instalando o ts-node e Code Runner
+252. Instalando e configurando o ESLint
+
 
 1° npm init -y
 2° npm i typescript -D
@@ -11,4 +12,8 @@ dependencia de deselvolvimento node
 
 5° npm install --save @types/node
 para poder rodar o code run
+
+6° npm i eslint -D
+
+7° npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 
