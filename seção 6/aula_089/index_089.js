@@ -42,7 +42,7 @@
 // }
 
 // console.log(pessoa1.getDataNascimento())
-//?         1989
+// ?         1989
 //todo =====================================================
 // const pessoa1 = new Object()
 // pessoa1.nome = 'Lucas'

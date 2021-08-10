@@ -1,6 +1,0 @@
-{
-  "code-runner.executorMap": {
-    "typescript": "npx ts-node --files",
-  },
-  "liveServer.settings.port": 5501
-}
