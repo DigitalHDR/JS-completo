@@ -1,20 +1,20 @@
-// Declaration merging
-interface Pessoa {
-  nome: string;
-}
+// // Declaration merging
+// interface Pessoa {
+//   nome: string;
+// }
 
-interface Pessoa {
-  readonly sobrenome: string;
-  readonly enderecos: readonly string[];
-  idade?: number;
-}
+// interface Pessoa {
+//   readonly sobrenome: string;
+//   readonly enderecos: readonly string[];
+//   idade?: number;
+// }
 
-const pessoa: Pessoa = {
-  nome: 'Luiz',
-  sobrenome: 'Miranda',
-  enderecos: ['Av. Brasil'],
-  idade: 30,
-};
+// const pessoa: Pessoa = {
+//   nome: 'Luiz',
+//   sobrenome: 'Miranda',
+//   enderecos: ['Av. Brasil'],
+//   idade: 30,
+// };
 
-pessoa.idade = 31;
-console.log(pessoa);
+// pessoa.idade = 31;
+// console.log(pessoa);

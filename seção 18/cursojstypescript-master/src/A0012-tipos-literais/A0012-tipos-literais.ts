@@ -13,19 +13,19 @@
 // }
 // console.log(escolhaCor('Vermelho'), pessoa, x, y);
 //todo =====================================================
-let x = 10 // eslint-disable-line
-const y = 10
-const a = 100
+// let x = 10 // eslint-disable-line
+// const y = 10
+// const a = 100
 
-const pessoa = {
-  nome: 'Lucas' as const,
-  sobrenome: 'Miranda',
-}
+// const pessoa = {
+//   nome: 'Lucas' as const,
+//   sobrenome: 'Miranda',
+// }
 
-function escolhaCor(cor: 'Vermelho' | 'Amarelo' | 'Azul'): string {
-  return cor
-}
+// function escolhaCor(cor: 'Vermelho' | 'Amarelo' | 'Azul'): string {
+//   return cor
+// }
 
-console.log(escolhaCor('Amarelo'))
+// console.log(escolhaCor('Amarelo'))
 
-export default 1
+// export default 1
