@@ -1,8 +1,8 @@
-export function criaErro(): never {
-  throw new Error('Erro qualquer')
-}
+// export function criaErro(): never {
+//   throw new Error('Erro qualquer')
+// }
 
-criaErro()
+// criaErro()
 
-// Module mode
-export default 1
+// // Module mode
+// export default 1
