@@ -69,31 +69,27 @@
 // })
 //?     visivel somente no navegador
 //todo =====================================================
-// const express = require('express')
-// const app = express()
+const express = require('express')
+const app = express()
 
-// app.get('/', (req, res) => {
-//     res.send(`
-//     <form action="/" method="POST">
-//     Nome: <input type="text" name="nome">
-//     <button>Enviar</button>
-//     </form>
-//     `)
-// })
+app.get('/', (req, res) => {
+    res.send(`
+    <form action="/" method="POST">
+    Nome do cliente: <input type="text" name="nome">
+    <button>Olá mundo</button>
+    </form>
+    `)
+})
 
-// app.post('/', (req, res) => {   //? vai aparecer isso depois de app.get
-//     res.send('Recebi o formulário')
-// })
+app.post('/', (req, res) => {   //? vai aparecer isso depois de app.get
+    res.send('Recebi o formulário')
+})
 
-// app.get('/contato', (req, res) => {
-//     res.send('Obrigado por entrar em contato com a gente')
-// })
+app.get('/contato', (req, res) => {
+    res.send('Obrigado por entrar em contato com a gente')
+})
 
-// app.listen(3000, () => {
-//     console.log('Acessa http://localhost:3000')
-//     console.log('Servidor express com nodejs rodando')
-// })
-//? para mesmo roda vc poder usar o post get put delete
-//* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-//*     | Nodemon |
-//* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+app.listen(3000, () => {
+    console.log('Acessa http://localhost:3000')
+    console.log('Servidor express com nodejs rodando')
+})

@@ -1,0 +1,18 @@
+131. Express + Nodemon
+
+npm i nodemon --save-dev
+
+(faz a atualização automaticamente
+instalar como desenvolvimento pois é usado somente 
+quando estamos fazendo o projeto, quando o projeto está 
+pronto não precisa mais)
+=======================================================
+npx nodemon nomeDoAquivo.js
+(para executar o nodemon, vai aparecer isso em baixo)
+
+[nodemon] 2.0.12
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node server.js`
+=======================================================
