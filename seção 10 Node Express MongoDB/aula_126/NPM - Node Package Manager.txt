@@ -1,0 +1,56 @@
+NPM - Node Package Manager
+
+npm init -y
+
+npm i express
+
+npm i express -E
+
+npm update
+(atualiza todas as dependencias)
+
+npm i express --save-dev
+(faz o express ir de dependencies para devDependencies)
+
+npm i express --save-prod
+(faz o express ir de devDependencies para dependencies)
+
+npm i express@2.1.0
+(instala uma versão exata do express colocando @mais o versão que você quer)
+
+------star------------------------------------------
+explicação das versão
+express@2.         1.          0
+      major       minor       patch
+
+patch = correção de bugs
+minor = quando adiciona um recurso novo
+patch = atualiza pra uma nova versão pode as vezes quebra a aplicação
+
+~2.1.0
+~ = atualiza somente o patch
+------end------------------------------------------
+
+npm i express@4.x
+(atualiza pra ultima versão do major 4 apenas, se tiver versão 5, 6 ou mais não vai)
+
+npm npm uninstall express
+(desistala o express)
+
+npm ls
+(mostra a lista de dependencias do projeto)
+
+npm ls --depth=0
+(mostra a lista de dependencias que você instalou)
+
+npm ls --depth=1
+(mostra a lista de dependencias que você instalou e aprofunda em mais uma pasta)
+
+------star------------------------------------------
+npm outdated
+(mostra quais dependencias estão desatualizada)
+
+MOSTRA ISSO NO CONSOLE
+Package  Current  Wanted  Latest  Location
+express    2.1.1  2.5.11  4.17.1  aula_126
+------end------------------------------------------
