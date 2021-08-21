@@ -1,0 +1,4 @@
+135. Express - Arquivos estáticos
+
+__dirname
+(é a pasta onde está esse arquivo)
