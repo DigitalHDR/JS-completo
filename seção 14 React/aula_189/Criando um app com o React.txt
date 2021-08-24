@@ -1,3 +1,32 @@
 189. Criando um app com o React
 
 npx create-react-app
+
+npm i eslint babel-eslint --save-dev
+
+npx eslint --init
+Usaremos o eslint para achar problemas e garantir um padrão de código
+1° To check syntax, find problems, and enforce code style
+
+Estamos em um projeto React criado com o create-react-app, logo estamos utilizando EsModules para os módulos
+2° JavaScript modules (import/export)
+
+Aqui é para o eslint trazer algumas opções referentes a dicas de código em projetos React
+3° React
+
+
+4° Does your project use TypeScript? » No / Yes (não, no momento não usaremos)
+
+Vamos sinalizar que estamos no ambiente do browser, assim o eslint não irá reclamar quando usarmos variáveis globais que são referentes ao mundo dos navegadores
+5° Browser
+
+A ideia é usarmos o padrão do airbnb por isso marcaremos a opção "Use a popular styleguide", mas você poderia gerar um baseado no seu projeto usando a opção "Answer Questions about your style" ou "Inspect your JavaScript Files", o problema é que muitas vezes os styleguides já prontos cobrem tópicos que nem passaram pela nossa cabeçå
+6° Use a popular style guide
+
+Aqui é só selecionarmos o airbnb (recomendo testar o standard também)
+7° Airbnb: https://github.com/airbnb/javascript
+
+Por fim, quero que as configurações que o ESLint for gerar sejam um arquivo JavaScript
+8° JavaScript
+
+9° Would you like to install them now with npm? » No / Yes (sim)
