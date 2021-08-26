@@ -1,6 +1,9 @@
 import React from 'react'
 import './App.css'
+import Main from './components/Main'
 
 export default function App() {
-  return <h1>Alguma coisa</h1>
+  return (
+    <Main />
+  )
 }

@@ -5,15 +5,8 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  text-align: center;
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
-  color: #fff;
-  background: #3E045E;
-}
-
-button {
-  cursor: pointer;
+  background-color: slateblue;
 }
